@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\ActionLogger\\": "src/"
+            "LaravelLiberu\\ActionLogger\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\ActionLogger\\AppServiceProvider"
+                "LaravelLiberu\\ActionLogger\\AppServiceProvider"
             ],
             "aliases": {}
         }

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ActionLogger;
+namespace LaravelLiberu\ActionLogger;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\ActionLogger\DynamicRelations\ActionLogs;
-use LaravelEnso\ActionLogger\Http\Middleware\ActionLogger;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\ActionLogger\DynamicRelations\ActionLogs;
+use LaravelLiberu\ActionLogger\Http\Middleware\ActionLogger;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

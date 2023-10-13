@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ActionLogger\DynamicRelations;
+namespace LaravelLiberu\ActionLogger\DynamicRelations;
 
 use Closure;
-use LaravelEnso\ActionLogger\Models\ActionLog;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\ActionLogger\Models\ActionLog;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class ActionLogs implements Method
 {
